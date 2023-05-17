@@ -8,3 +8,6 @@
 * Extensível: O software não é estático, ele deve crescer para permancer útil.
 * Reutilizável: Podemos utilizar os objetos de um sistema que criamos em outro sistema futuro.
 * Natural: É mais fácil de entender, podemos nos preocupar mais na funcionalidade do que nos detalhes de implementação.
+
+### Objeto
+Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio de suas característic
