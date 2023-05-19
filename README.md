@@ -10,7 +10,7 @@
 * Natural: É mais fácil de entender, podemos nos preocupar mais na funcionalidade do que nos detalhes de implementação.
 
 ### Objeto
-Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio de suas característic
+Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio de suas características
 
 ### Atributos
 São as características
@@ -38,3 +38,16 @@ public function setEmail($e){
 $this->email = $e;
 }
 ~~~
+
+### Construtor
+É inicializado no momento em que a classe é instanciada.
+~~~ 
+public function __construct($nome){
+  $this->setEmail = $email;
+}
+~~~
+
+### Herança
+Recurso que permite que classes compartilhem atributos e métodos ou comportamentos generalizados.
+
+
