@@ -11,3 +11,23 @@
 
 ### Objeto
 Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio de suas característic
+
+### Atributos
+São as características
+
+### Métodos/Funções
+As "ações" que a classe pode executar.
+
+### Instanciar uma classe
+$variavel = new Classe();
+Essa variável é um objeto.
+
+Para usar um atributo dentro de uma função, é necessário o $this.
+Não é seguro poder acessar os atributos fora da classe, por isso os declaramos como privados, assim só é possível acessá-los a partir dos Getters e Setters.
+Get - Pega o valor do atributo.
+
+´´´
+public function getEmail(){
+  return->$this->email;
+}
+´´´
